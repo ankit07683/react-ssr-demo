@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HOME | Native SSR by Ankit Jain",
+    "meta_title": "Hi, this is the meta title for home page",
+    "meta_description": "Hi, this is the meta description for home page",
+    "meta_image": "logo_square.jpg",
+    "schema": {},
+    "slug": "home",
+    "html": ""
+  },
+  {
+    "title": "About US | Native SSR by Ankit Jain",
+    "meta_title": "Hi, this is the meta title for About US page",
+    "meta_description": "Hi, this is the meta description for About US page",
+    "meta_image": "logo_square.jpg",
+    "schema": {},
+    "slug": "about-us",
+    "html": "<section class='welcome-section inner-page-section'><div class='auto-container'><h1>About Us</h1><h2>Welcome to Habilelabs</h2><div class='text'>Based in Jaipur, Habilelabs is a premier IT-service provider and software development company in India that renders top-class web and mobile application solutions. The company houses a highly talented delopment team that aims to provide perfection in its every piece of work. It also seeks for young and skilled minds across the globe and offers them quality training that opens a road towards wide opportunities in the organization. Currently, Habilelabs consists of 60+ team members.</div></div></section>"
+  },
+  {
+    "title": "Contact US | Native SSR by Ankit Jain",
+    "meta_title": "Hi, this is the meta title for Contact US Page",
+    "meta_description": "Hi, this is the meta description for Contact US Page",
+    "meta_image": "logo_square.jpg",
+    "schema": {},
+    "slug": "contact-us",
+    "html": "<section class='welcome-section inner-page-section inner-contain'><div class='auto-container'><h1>Contact Us</h1><h2>Get in Touch with Us</h2><div class='text'>Leading you towards the revolutionary and futuristic aspects of the IT Industry. We are here to provide enhanced user-experience with the help of multidisciplinary expertise. Our team is fully committed to their work and do wonders with their comprehensive knowledge. Tell us about your project and describe requirements so that we can assist you and provide customized solutions accordingly.</div></div></section>"
+  },
+  {
+    "title": "Blogs | Native SSR by Ankit Jain",
+    "meta_title": "Hi, this is the meta title for Blogs Page",
+    "meta_description": "Hi, this is the meta description for Blogs Page",
+    "meta_image": "logo_square.jpg",
+    "schema": {},
+    "slug": "blogs",
+    "html": "<section class='welcome-section inner-page-section'><div class='auto-container'><h2>Welcome to Habilelabs Blogs</h2><div class='text'>Based in Jaipur, Habilelabs is a premier IT-service provider and software development company in India that renders top-class web and mobile application solutions. The company houses a highly talented delopment team that aims to provide perfection in its every piece of work. It also seeks for young and skilled minds across the globe and offers them quality training that opens a road towards wide opportunities in the organization. Currently, Habilelabs consists of 60+ team members.</div></div></section>"
+  }
+]

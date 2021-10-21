@@ -1,0 +1,61 @@
+{
+  "name": "native-ssr-demo",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://react-ssr-demo.herokuapp.com",
+  "keywords": [
+    "Server Side Rendering",
+    "React SSR",
+    "Node SSR"
+  ],
+  "author": "Ankit Kumar Jain",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.15.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.22.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eventemitter3": "^4.0.7",
+    "express": "^4.17.1",
+    "express-sitemap": "^1.8.0",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "node server/bootstrap.js",
+    "deploy": "node server/bootstrap.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "NODE_ENV=production && react-scripts --max_old_space_size=4096 build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
