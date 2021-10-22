@@ -30,14 +30,14 @@
     "react-helmet": "^6.1.0",
     "react-router": "^5.2.1",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "node server/bootstrap.js",
-    "deploy": "node server/bootstrap.js",
+    "start_react": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "deploy": "npm run build && node server/bootstrap.js",
     "build": "NODE_ENV=production && react-scripts --max_old_space_size=4096 build"
   },
   "eslintConfig": {
@@ -57,5 +57,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5"
   }
 }
