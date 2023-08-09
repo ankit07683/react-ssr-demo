@@ -21,4 +21,3 @@ npm run start
 
 ### Deploy the react app and start the server
 npm run deploy
-
